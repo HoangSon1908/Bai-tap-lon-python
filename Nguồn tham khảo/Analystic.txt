@@ -1,0 +1,13 @@
+Chủ đề : ​"E-commerce customer purchasing behavior"
+1. Mục tiêu : 
+- Nhóm 13 (nhóm của mình): Phân tích dữ liệu đơn hàng thương mại điện tử
+Nên tập trung phân tích hành vi mua hàng, tần suất mua lại và phân nhóm khách hàng, tránh trùng với nhóm 5 và 6.
+2. Yêu cầu chung:
+Các nhóm cần xác định rõ:
+- Tên đề tài và phạm vi nghiên cứu sau điều chỉnh.
+- Nguồn dữ liệu sử dụng, đảm bảo có thể thu thập và xử lý.
+- Các nội dung phân tích chính và kết quả dự kiến.
+- Các kỹ thuật Python sử dụng để xử lý, phân tích và trực quan hóa dữ liệu.
+Đối với các đề tài có dự báo hoặc học máy, các nhóm cần cân nhắc tính khả thi, không bắt buộc triển khai mô hình phức tạp ngoài phạm vi kiến thức môn học.
+3. Yêu cầu:
+Các nhóm chủ động hoàn thiện nội dung theo góp ý. Thầy ưu tiên chất lượng xử lý, phân tích dữ liệu và khả năng giải thích mã nguồn Python hơn là độ phức tạp của đề tài.

@@ -1,0 +1,29 @@
+BÁO CÁO TIẾN ĐỘ MỐC 03 (10/11/2026) - NHÓM 13
+Chủ đề: E-commerce customer purchasing behavior
+======================================================================
+
+============================================================
+BÁO CÁO TỔNG KẾT TIỀN XỬ LÝ VÀ LÀM SẠCH DỮ LIỆU
+============================================================
+Số dòng thô ban đầu       : 1,811
+Số dòng sau khi làm sạch  : 1,704
+Tỷ lệ giữ lại             : 94.09%
+Số khách hàng duy nhất    : 55
+Số hóa đơn mua thành công : 141
+Tổng số mặt hàng khác nhau: 908
+Khoảng thời gian giao dịch: 2010-12-01 đến 2011-12-07
+Tổng doanh thu hợp lệ     : 63,787.90 USD
+============================================================
+
+KẾT QUẢ PHÂN TÍCH BAN ĐẦU:
+----------------------------------------------------------------------
+- Khách hàng độc nhất: 55
+- Tỷ lệ khách mua lại sơ bộ: 49.09%
+- Giá trị đơn hàng trung bình (AOV): $452.40
+- Thời điểm mua sắm cao điểm: Wednesday lúc 12:00
+
+KẾ HOẠCH BÀN GIAO CHO CÁC THÀNH VIÊN TRIỂN KHAI MỐC 04 (HẠN 17/11):
+- Thành viên phụ trách RFM: Xây dựng compute_rfm_segments().
+- Thành viên phụ trách Doanh thu & Hủy đơn: analyze_segment_revenue_contribution(), analyze_cancellation_by_segment().
+- Thành viên phụ trách Trực quan hóa: Hoàn thiện 04 biểu đồ còn lại trong visualizer.py.
+- Thành viên phụ trách Báo cáo: Soạn thảo bản nháp báo cáo 5-8 trang.
