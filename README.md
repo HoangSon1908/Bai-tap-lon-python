@@ -27,10 +27,13 @@ python main.py
 - `requirements.txt`       : Danh sách các thư viện ngoài cần cài đặt.
 
 ## 4. KẾT QUẢ ĐẠT ĐƯỢC (MỐC 03 - 10/11/2026)
-- Xử lý làm sạch 541,909 dòng dữ liệu thô, giữ lại 392,692 giao dịch hợp lệ của 4,338 khách hàng độc nhất.
-- Tạo các đặc trưng mới: `TotalAmount` ($Quantity \times UnitPrice$), `DayOfWeek`, `Hour`.
-- Đưa ra các phát hiện ban đầu:
-  + Tỷ lệ khách hàng mua lại sơ bộ (Repurchase Rate): **65.58%**.
-  + Giá trị đơn hàng trung bình (AOV): **$479.56 USD**.
-  + Thời điểm mua sắm cao điểm nhất: **Thứ Năm**, lúc **12:00 trưa**.
-- Xuất biểu đồ mật độ giao dịch ban đầu tại `outputs/figures/01_shopping_time_heatmap.png`.
+- **Quy mô dữ liệu:** Đạt chuẩn yêu cầu BTL (> 300 bản ghi, > 6 thuộc tính), xử lý làm sạch **1,811 dòng dữ liệu thô (8 thuộc tính)**, loại bỏ trùng lặp và bản ghi khuyết thiếu, giữ lại **1,704 giao dịch hợp lệ** của **55 khách hàng độc nhất** (tỷ lệ giữ lại: 94.09%).
+- **Kỹ thuật dữ liệu:**
+  + Xây dựng module hướng đối tượng (`EcommerceDataProcessor`) đọc, kiểm tra cấu trúc, chuẩn hóa thời gian và làm sạch dữ liệu.
+  + Tạo các đặc trưng mới phục vụ phân tích: `TotalAmount` ($Quantity \times UnitPrice$), `DayOfWeek` (thứ trong tuần), `Hour` (khung giờ mua sắm).
+- **Phát hiện ban đầu:**
+  + Tỷ lệ khách hàng mua lại sơ bộ (Repurchase Rate): **49.09%** (27/55 khách hàng phát sinh từ 2 đơn hàng trở lên).
+  + Giá trị đơn hàng trung bình (AOV): **$452.40 USD**.
+  + Thời điểm mua sắm cao điểm nhất: **Thứ Tư (Wednesday)**, khung giờ **12:00 trưa**.
+- **Trực quan hóa:** Xuất biểu đồ nhiệt phân bố thời gian mua sắm tại `outputs/figures/01_shopping_time_heatmap.png`.
+- **Nghiệm thu:** Báo cáo chi tiết mốc 03 được xuất tự động tại `outputs/Bao_cao_tien_do_Moc03.txt`.
